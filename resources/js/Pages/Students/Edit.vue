@@ -22,7 +22,7 @@
                 </div>
                 <div class="mb-4">
                     <label for="email" class="block text-gray-700"
-                        >Roll Number:</label
+                        >Email:</label
                     >
                     <input
                         id="email"
@@ -33,7 +33,7 @@
                 </div>
                 <div class="mb-4">
                     <label for="username" class="block text-gray-700"
-                        >username:</label
+                        >Username:</label
                     >
                     <input
                         id="username"
