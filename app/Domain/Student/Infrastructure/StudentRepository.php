@@ -44,7 +44,7 @@ class StudentRepository implements StudentRepositoryInterface
 
     public function destroyById(int $id): void
     {
-        $this->model->find($id)->delete();
+        $this->model->find($id)?->delete();
     }
 
     public function getAll(): ?Collection

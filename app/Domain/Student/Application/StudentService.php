@@ -33,7 +33,7 @@ class StudentService
         return $student;
     }
 
-    public function updateStudent(int $id, string $name, string $email, $username): StudentModel
+    public function updateStudent(int $id, string $name, string $email, string $username): StudentModel
     {
         $student = new Student($name, $email, $username, $id);
         $this->studentRepository->update($student);
